@@ -1,0 +1,75 @@
+@import './variables.scss';
+
+
+.currentCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding: 16px;
+  max-width: 412px;
+  max-height: 574px;
+  box-sizing: border-box;
+  border-radius: 42px;
+  background: linear-gradient(
+    191.32deg,
+  #7B2EB0 -118.59%, #C584F5 15.64%,
+  #DACEE1 56.18%, #5D6AAA 81.36%,
+  #0D2986 109.76%, #481CBB 131.68%, #142D8E 131.68%
+  );
+  -webkit-background-clip: background;
+
+  &__img > img {
+    width: 100%;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+    max-width: 320px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  &__bid {  
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__time {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-family: $font-primary;
+    color: #fff;
+    font-weight: 400;
+    font-size: calc(14px + 4 * (100vw / 1230));
+    line-height: 21px;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+
+    &-bold {
+      font-family: $font-primary;
+      color: #fff;
+      font-weight: 700;
+      font-size: calc(24px + 4 * (100vw / 1230));
+      line-height: 28px;
+    }
+  }
+
+
+  @media screen and (max-width: 375px) {
+    &__content {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    &__title {
+      color: rgb(3, 25, 45);
+    }
+  }
+}

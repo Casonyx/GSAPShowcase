@@ -1,0 +1,72 @@
+@import './variables.scss';
+
+
+.agents {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  gap: 40px;
+
+  &__agent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+    max-width: 380px;
+    background: linear-gradient(101.61deg, #84EEF5 -14.72%, #8f60b1 66.97%);
+    -webkit-background-clip: background;
+    border-radius: 42px;
+    cursor: pointer;
+    transition: transform .5s;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &__img {
+    border-radius: 16px;
+    margin-bottom: 20px;
+  }
+
+  &__name {
+    color: #fff;
+    font-family: $font-primary;
+    font-size: 28px;
+    font-weight: 800;
+    margin: 0 0 20px 0;
+  }
+
+  &__text {
+    color: rgb(9, 1, 1);
+    font-family: $font-primary;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  &__more {
+    color: #fff;
+    font-family: $font-primary;
+    font-size: 20px;
+    font-weight: 700;
+    transition: color .3s;
+
+    &:hover {
+      color: darken($color: #21263b, $amount: 3)
+    }
+  }
+
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+
+    &__agent {
+      &:hover {
+        transform: scale(1);
+      }
+    }
+  }
+}

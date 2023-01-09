@@ -1,0 +1,499 @@
+/*!******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/variables.scss ***!
+  \******************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap);
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/header.scss ***!
+  \***************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap);
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/m-hero.scss ***!
+  \***************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap);
+/*!********************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/currentCard.scss ***!
+  \********************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap);
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/agents.scss ***!
+  \***************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap);
+/*!******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/normalize.scss ***!
+  \******************************************************************************************************************/
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+img {
+  border-style: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+/*!**********************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/variables.scss (1) ***!
+  \**********************************************************************************************************************/
+
+/*!*************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/base.scss ***!
+  \*************************************************************************************************************/
+body {
+  background: url(./5654d5bb03a5e3eac02d.jpg) no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+/*!*******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/header.scss (1) ***!
+  \*******************************************************************************************************************/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 102px;
+  margin-bottom: 100px;
+}
+.header__logo {
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 75px;
+  background-image: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header__navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 400px;
+}
+.header__link {
+  font-family: "Manrope", sans-serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: calc(14px + 0.487804878vw);
+  line-height: 15.5%;
+  transition: color 0.3s;
+}
+.header__link:hover {
+  color: #9088c7;
+}
+.header__btn {
+  border: 1px solid #C584F5;
+  box-sizing: border-box;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 94px;
+  min-height: 40px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #fff;
+  background-color: transparent;
+  transition: border-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+.header__btn:hover {
+  border-color: rgb(194, 146, 154);
+  color: rgb(194, 146, 154);
+}
+@media screen and (max-width: 768px) {
+  .header {
+    position: relative;
+  }
+  .header__navbar {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+@media screen and (max-width: 425px) {
+  .header__navbar {
+    max-width: 280px;
+  }
+}
+/*!*******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/m-hero.scss (1) ***!
+  \*******************************************************************************************************************/
+.m-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 120px;
+  position: relative;
+}
+.m-hero__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 552px;
+}
+.m-hero__title {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: calc(18px + 4.8780487805vw);
+  line-height: calc(20px + 6.5040650407vw);
+  color: #fff;
+  margin: 0 0 35px 0;
+}
+.m-hero__miniDesc {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 35px;
+  color: #fff;
+  letter-spacing: 0.08em;
+  margin: 0 0 56px 0;
+}
+.m-hero__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 198px;
+  min-height: 64px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  background: linear-gradient(101.61deg, #84EEF5 -14.72%, #8f60b1 66.97%);
+  -webkit-background-clip: background;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 42px;
+  color: #fff;
+  box-shadow: 0 0 18px 7px rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  transition: border 0.3s, color 0.3s;
+}
+.m-hero__btn:hover {
+  border: 3px solid pink;
+  color: #ffa7b6;
+}
+.m-hero__svg {
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 768px) {
+  .m-hero {
+    flex-direction: column;
+  }
+  .m-hero__content {
+    align-items: center;
+    margin-bottom: 60px;
+  }
+  .m-hero__title {
+    text-align: center;
+  }
+  .m-hero__miniDesc {
+    text-align: center;
+  }
+}
+/*!************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/currentCard.scss (1) ***!
+  \************************************************************************************************************************/
+.currentCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding: 16px;
+  max-width: 412px;
+  max-height: 574px;
+  box-sizing: border-box;
+  border-radius: 42px;
+  background: linear-gradient(191.32deg, #7B2EB0 -118.59%, #C584F5 15.64%, #DACEE1 56.18%, #5D6AAA 81.36%, #0D2986 109.76%, #481CBB 131.68%, #142D8E 131.68%);
+  -webkit-background-clip: background;
+}
+.currentCard__img > img {
+  width: 100%;
+}
+.currentCard__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  max-width: 320px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.currentCard__bid {
+  display: flex;
+  flex-direction: column;
+}
+.currentCard__time {
+  display: flex;
+  flex-direction: column;
+}
+.currentCard__title {
+  font-family: "Manrope", sans-serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: calc(14px + 0.325203252vw);
+  line-height: 21px;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+.currentCard__title-bold {
+  font-family: "Manrope", sans-serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: calc(24px + 0.325203252vw);
+  line-height: 28px;
+}
+@media screen and (max-width: 375px) {
+  .currentCard__content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .currentCard__title {
+    color: rgb(3, 25, 45);
+  }
+}
+/*!*******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/agents.scss (1) ***!
+  \*******************************************************************************************************************/
+.agents {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  gap: 40px;
+}
+.agents__agent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+  max-width: 380px;
+  background: linear-gradient(101.61deg, #84EEF5 -14.72%, #8f60b1 66.97%);
+  -webkit-background-clip: background;
+  border-radius: 42px;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+.agents__agent:hover {
+  transform: scale(1.1);
+}
+.agents__img {
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+.agents__name {
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  margin: 0 0 20px 0;
+}
+.agents__text {
+  color: rgb(9, 1, 1);
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.agents__more {
+  color: #fff;
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  transition: color 0.3s;
+}
+.agents__more:hover {
+  color: #1c2031;
+}
+@media screen and (max-width: 768px) {
+  .agents {
+    flex-direction: column;
+    align-items: center;
+  }
+  .agents__agent:hover {
+    transform: scale(1);
+  }
+}
